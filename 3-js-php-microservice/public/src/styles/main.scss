@@ -1,0 +1,9 @@
+html, body {
+  margin: 0;
+  background: white;
+
+  @media screen and (prefers-color-scheme: dark) {
+    background: black;
+    color: white;
+  }
+}
